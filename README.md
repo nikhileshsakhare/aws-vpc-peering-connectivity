@@ -11,6 +11,8 @@ This project demonstrates how to build private connectivity between an applicati
 
 ## Architecture (high level)
 
+![Architecture Diagram](VPC_A.jpg)
+
 **VPC-1: MyVPC-1 (10.0.0.0/16)**
 - `public-subnet` (10.0.0.0/21): Proxy Server EC2 + NAT Gateway + IGW route.
 - `private-subnet` (10.0.8.0/21): Application Server EC2 (no public IP).
